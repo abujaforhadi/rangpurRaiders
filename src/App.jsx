@@ -6,7 +6,8 @@ import MainSection from "./Components/MainSection";
 import Footer from "./Components/Footer";
 
 function App() {
-  const [count, setCount] = useState(0);
+ 
+
 
   return (
     <>

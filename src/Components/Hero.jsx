@@ -22,7 +22,7 @@ function Hero() {
             <p className="text-[#FFFFFFB3] pb-4 font-inter">
               Beyond Boundaries Beyond Limits
             </p>
-            <button className="btn btn-outline btn-warning">
+            <button className="btn btn-outline text-[#D29F98]">
               Claim Free Credit
             </button>
           </div>
