@@ -23,6 +23,8 @@ function MainSection({hendlePlayerData,playerData,handleDelete,addMoney}) {
 
       <div className="flex justify-between py-5">
         <h3 className="font-bold text-xl">Choose Our Riders </h3>
+        
+        
         <div className="flex gap-2">
           <button
             onClick={() => handleActiveBtn("Available")}
