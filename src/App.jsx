@@ -29,7 +29,7 @@ function App() {
         toast.success(`${player.name} added successfully!`); 
       }
     } else {
-      toast.info("Player is already selected."); 
+      toast.info("player already selected."); 
     }
   };
 
