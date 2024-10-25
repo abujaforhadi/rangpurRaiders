@@ -1,6 +1,6 @@
 import React from "react";
 
-function Player({ player,hendlePlayerData }) {
+function Player({ player,hendlePlayerData,handleDuplicatePlayer }) {
   
   const {
     name,

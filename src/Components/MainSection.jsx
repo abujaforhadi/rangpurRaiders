@@ -17,8 +17,8 @@ function MainSection({hendlePlayerData,playerData,handleDelete}) {
   };
 
   return (
-    <div>
-      <h1>Main Section</h1>
+    <div className="py-5">
+     
       <Hero />
 
       <div className="flex justify-between py-5">

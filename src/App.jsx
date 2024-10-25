@@ -8,15 +8,25 @@ import Footer from "./Components/Footer";
 function App() {
   const [playerData, setPlayerData] = useState([]);
   const hendlePlayerData = (player) => {
-    const addPlayer=[...playerData,player];
-    setPlayerData(addPlayer);
+    const isDuplicate = playerData.some(
+      (p) => p.id === player.id
+    );
+    if (!isDuplicate) {
+      const addPlayer=[...playerData,player];
+      setPlayerData(addPlayer);
+    } else {
+      alert("Player is already selected.");
+    }
+
+    
     
   };
   const handleDelete=(p)=>{
     const updatePlayer=playerData.filter((player)=>player.id!==p);
     setPlayerData(updatePlayer)
-    console.log(updatePlayer);
+   
   }
+ 
 
   return (
     <>
