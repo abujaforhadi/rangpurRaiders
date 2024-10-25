@@ -17,7 +17,7 @@ function SelectedPlayer({ p,handleDelete }) {
         </div>
       </div>
       <button
-        onClick={() => handleDelete(p.id)}
+        onClick={() => handleDelete(p)}
         className="btn bg-red-500 text-white px-2 py-1 hover:bg-red-600 "
       >
         Delete

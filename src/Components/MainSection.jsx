@@ -44,7 +44,7 @@ function MainSection({hendlePlayerData,playerData,handleDelete,addMoney}) {
       </div>
 
      
-      {activeBtn.Available? <Available hendlePlayerData={hendlePlayerData} />:<Selected handleDelete={handleDelete} playerData={playerData} />}
+      {activeBtn.Available? <Available hendlePlayerData={hendlePlayerData} />:<Selected handleActiveBtn={handleActiveBtn} handleDelete={handleDelete} playerData={playerData} />}
       
     </div>
   );

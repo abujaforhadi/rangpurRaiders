@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Player from './Player';
 
 function Available({hendlePlayerData}) {
+  
     const [player,setPlayer]=useState([]);
     useEffect(() => {
         fetch("/players.json")

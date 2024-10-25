@@ -12,12 +12,22 @@ function App() {
   const totalMoney=()=>money;
   
   const hendlePlayerData = (player) => {
+    
+    
     const isDuplicate = playerData.some(
       (p) => p.id === player.id
     );
-    if (!isDuplicate) {
-      const addPlayer=[...playerData,player];
+    if (!isDuplicate ) {
+      if(money<=player.biddingPrice){
+        alert("no money")
+      }
+      else{
+        const addPlayer=[...playerData,player];
       setPlayerData(addPlayer);
+      setMoney(money-player.biddingPrice)
+      }
+      
+
     } else {
       alert("Player is already selected.");
     }
@@ -26,8 +36,9 @@ function App() {
     
   };
   const handleDelete=(p)=>{
-    const updatePlayer=playerData.filter((player)=>player.id!==p);
+    const updatePlayer=playerData.filter((player)=>player.id!==p.id);
     setPlayerData(updatePlayer)
+    setMoney(money+parseInt(p.biddingPrice))
    
   }
  
