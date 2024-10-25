@@ -7,7 +7,7 @@ function Available() {
         fetch("/players.json")
           .then((response) => response.json())
           .then((data) => {
-            const shuffledPlayers = data.players.sort(() => 0.5 - Math.random()); 
+            const shuffledPlayers = data.sort(() => 0.5 - Math.random()); 
             const limitedPlayers = shuffledPlayers.slice(0, 6);
             setPlayer(limitedPlayers);
           });

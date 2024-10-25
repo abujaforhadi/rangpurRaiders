@@ -1,105 +1,112 @@
-{
-    "players": [
-      {
-        "playerId": 1,
-        "name": "Nahid Rana",
-        "country": "Bangladesh",
-        "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/387300/387398.4.jpg",
-        "role": "All-rounder",
-        "battingType": "Right-hand bat",
-        "bowlingType": "Right-arm medium",
-        "biddingPrice": 200000
-      },
-      {
-        "playerId": 2,
-        "name": "Saif Hassan",
-        "country": "Bangladesh",
-        "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/323100/323174.1.png",
-        "role": "Batsman",
-        "battingType": "Right-hand bat",
-        "bowlingType": "Off-spin",
-        "biddingPrice": 150000
-      },
-      {
-        "playerId": 3,
-        "name": "Soumya Sarkar",
-        "country": "Bangladesh",
-        "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/385800/385821.1.png",
-        "role": "All-rounder",
-        "battingType": "Left-hand bat",
-        "bowlingType": "Right-arm medium",
-        "biddingPrice": 250000
-      },
-      {
-        "playerId": 4,
-        "name": "Rakibul Hasan",
-        "country": "Bangladesh",
-        "image": "https://api.bdcrictime.com/rakibul-hasan-22_08_2021_02_28_50.jpg",
-        "role": "Bowler",
-        "battingType": "Left-hand bat",
-        "bowlingType": "Left-arm spin",
-        "biddingPrice": 180000
-      },
-      {
-        "playerId": 5,
-        "name": "Akif Javed",
-        "country": "Pakistan",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS2OQxDCeCXTyvgOkwMJ4MOGYJ_o-D8Dq7h2lpwDctMrbLhfYRTLPgrEcgTzPhky25Im4W_KWBHDc1ioXr-uFFHBEufLcVMcfKwFsJzJ-w",
-        "role": "Bowler",
-        "battingType": "Right-hand bat",
-        "bowlingType": "Left-arm fast",
-        "biddingPrice": 220000
-      },
-      {
-        "playerId": 6,
-        "name": "Curtis Campher",
-        "country": "Ireland",
-        "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/321300/321343.1.png",
-        "role": "All-rounder",
-        "battingType": "Right-hand bat",
-        "bowlingType": "Right-arm medium",
-        "biddingPrice": 300000
-      },
-      {
-        "playerId": 7,
-        "name": "Rejaur Rahman Raja",
-        "country": "Bangladesh",
-        "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/345000/345082.1.png",
-        "role": "Bowler",
-        "battingType": "Right-hand bat",
-        "bowlingType": "Right-arm fast",
-        "biddingPrice": 160000
-      },
-      {
-        "playerId": 8,
-        "name": "Irfan Sukkur",
-        "country": "Bangladesh",
-        "image": "https://d13ir53smqqeyp.cloudfront.net/player-images/8574.png",
-        "role": "Wicketkeeper-batsman",
-        "battingType": "Left-hand bat",
-        "bowlingType": "N/A",
-        "biddingPrice": 140000
-      },
-      {
-        "playerId": 9,
-        "name": "Kamrul Islam Rabbi",
-        "country": "Bangladesh",
-        "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/333900/333987.1.png",
-        "role": "Bowler",
-        "battingType": "Right-hand bat",
-        "bowlingType": "Right-arm fast-medium",
-        "biddingPrice": 175000
-      },
-      {
-        "playerId": 10,
-        "name": "Tawfique Khan Tushar",
-        "country": "Bangladesh",
-        "image": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/336400/336451.png",
-        "role": "Batsman",
-        "battingType": "Right-hand bat",
-        "bowlingType": "Legbreak Googly",
-        "biddingPrice": 120000
-      }
-    ]
+[
+  {
+    "id": 137,
+    "name": "Hasan Murad",
+    "country": "Bangladesh",
+    "image": "https://www.rangpurridersbpl.com/uploads/player/1707493720.webp",
+    "role": "Bowler",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Left-arm orthodox",
+    "biddingPrice": "50000"
+  },
+  {
+    "id": 294,
+    "name": "Ashiqur Zaman",
+    "country": "Bangladesh",
+    "image": "https://www.rangpurridersbpl.com/uploads/player/1707493362.webp",
+    "role": "All-rounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast",
+    "biddingPrice": "60000"
+  },
+  {
+    "id": 482,
+    "name": "Rony Talukdar",
+    "country": "Bangladesh",
+    "image": "https://www.rangpurridersbpl.com/uploads/player/1707487907.webp",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm medium",
+    "biddingPrice": "70000"
+  },
+  {
+    "id": 539,
+    "name": "Salman Irshad",
+    "country": "Pakistan",
+    "image": "https://www.rangpurridersbpl.com/uploads/player/1707488211.webp",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast",
+    "biddingPrice": "80000"
+  },
+  {
+    "id": 673,
+    "name": "Abu Hider Rony",
+    "country": "Bangladesh",
+    "image": "https://www.rangpurridersbpl.com/uploads/player/1707493115.webp",
+    "role": "Bowler",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Left-arm fast",
+    "biddingPrice": "40000"
+  },
+  {
+    "id": 715,
+    "name": "Hasan Mahmud",
+    "country": "Bangladesh",
+    "image": "https://www.rangpurridersbpl.com/uploads/player/1707488559.webp",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast",
+    "biddingPrice": "90000"
+  },
+  {
+    "id": 896,
+    "name": "Brandon King",
+    "country": "West Indies",
+    "image": "https://www.rangpurridersbpl.com/uploads/player/1707487566.webp",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm medium",
+    "biddingPrice": "100000"
+  },
+  {
+    "id": 337,
+    "name": "Mohammad Nabi",
+    "country": "Afghanistan",
+    "image": "https://www.rangpurridersbpl.com/uploads/player/1707486136.webp",
+    "role": "All-rounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "biddingPrice": "110000"
+  },
+  {
+    "id": 259,
+    "name": "Nurul Hasan Sohan",
+    "country": "Bangladesh",
+    "image": "https://www.rangpurridersbpl.com/uploads/player/1707484699.webp",
+    "role": "Wicketkeeper-batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "N/A",
+    "biddingPrice": "55000"
+  },
+  {
+    "id": 104,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "image": "https://www.rangpurridersbpl.com/uploads/player/1707481263.webp",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "biddingPrice": "150000"
+  },
+  {
+    "id": 682,
+    "name": "Shamim Hossain Patwari",
+    "country": "Bangladesh",
+    "image": "https://www.rangpurridersbpl.com/uploads/player/1707486455.webp",
+    "role": "All-rounder",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "biddingPrice": "65000"
   }
-  
+]

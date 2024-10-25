@@ -8,7 +8,7 @@ function Player({ player }) {
     <div>
       <div className="card  shadow-xl">
         <figure className="px-5 pt-8">
-          <img src={image} alt={name} className="w-64 h-64 rounded-xl" />
+          <img src={image} alt={name} className="rounded-xl" />
         </figure>
         <div className="p-4">
           <h2 className=" text-xl font-semibold">
