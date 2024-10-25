@@ -3,7 +3,7 @@ import Hero from "./Hero";
 import Available from "./Available";
 import Selected from "./Selected";
 
-function MainSection() {
+function MainSection({hendlePlayerData,playerData,handleDelete}) {
   const [activeBtn, setActiveBtn] = useState({
     Available: true,
     status: "Available",
@@ -38,13 +38,13 @@ function MainSection() {
               activeBtn.status === "Selected" ? "btn-active" : ""
             }`}
           >
-            Selected (0)
+            Selected ({playerData.length})
           </button>
         </div>
       </div>
 
      
-      {activeBtn.Available? <Available />:<Selected />}
+      {activeBtn.Available? <Available hendlePlayerData={hendlePlayerData} />:<Selected handleDelete={handleDelete} playerData={playerData} />}
       
     </div>
   );

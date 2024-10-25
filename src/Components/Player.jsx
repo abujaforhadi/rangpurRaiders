@@ -1,7 +1,7 @@
 import React from "react";
 
-function Player({ player }) {
-  console.log(player);
+function Player({ player,hendlePlayerData }) {
+  
   const {
     name,
     image,
@@ -75,7 +75,7 @@ function Player({ player }) {
             <p>{battingType}</p>
             <p className="text-center">{bowlingType}</p>
             <p className="font-semibold">Price : {biddingPrice} BDT</p>
-            <button className="btn btn-outline">Choose Player</button>
+            <button onClick={()=>hendlePlayerData(player)} className="btn btn-outline">Choose Player</button>
           </div>
         </div>
       </div>

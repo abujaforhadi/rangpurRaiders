@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import pic from "../assets/image/Rangpur_Riders_Logo.png";
 
 
-function Header() {
+function Header({hendlePlayerData}) {
   return (
     <div>
       <div className="navbar bg-base-100">
