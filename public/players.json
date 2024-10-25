@@ -7,7 +7,8 @@
     "role": "Bowler",
     "battingType": "Left-hand bat",
     "bowlingType": "Left-arm orthodox",
-    "biddingPrice": "50000"
+    "biddingPrice": "1500000",
+    "rating": 3.8
   },
   {
     "id": 294,
@@ -17,7 +18,8 @@
     "role": "All-rounder",
     "battingType": "Right-hand bat",
     "bowlingType": "Right-arm fast",
-    "biddingPrice": "60000"
+    "biddingPrice": "2000000",
+    "rating": 4.0
   },
   {
     "id": 482,
@@ -27,7 +29,8 @@
     "role": "Batsman",
     "battingType": "Right-hand bat",
     "bowlingType": "Right-arm medium",
-    "biddingPrice": "70000"
+    "biddingPrice": "2500000",
+    "rating": 3.9
   },
   {
     "id": 539,
@@ -37,7 +40,8 @@
     "role": "Bowler",
     "battingType": "Right-hand bat",
     "bowlingType": "Right-arm fast",
-    "biddingPrice": "80000"
+    "biddingPrice": "3000000",
+    "rating": 3.8
   },
   {
     "id": 673,
@@ -47,7 +51,8 @@
     "role": "Bowler",
     "battingType": "Left-hand bat",
     "bowlingType": "Left-arm fast",
-    "biddingPrice": "40000"
+    "biddingPrice": "1250000",
+    "rating": 3.6
   },
   {
     "id": 715,
@@ -57,7 +62,8 @@
     "role": "Bowler",
     "battingType": "Right-hand bat",
     "bowlingType": "Right-arm fast",
-    "biddingPrice": "90000"
+    "biddingPrice": "3500000",
+    "rating": 4.1
   },
   {
     "id": 896,
@@ -67,7 +73,8 @@
     "role": "Batsman",
     "battingType": "Right-hand bat",
     "bowlingType": "Right-arm medium",
-    "biddingPrice": "100000"
+    "biddingPrice": "4000000",
+    "rating": 4.3
   },
   {
     "id": 337,
@@ -77,17 +84,19 @@
     "role": "All-rounder",
     "battingType": "Right-hand bat",
     "bowlingType": "Right-arm offbreak",
-    "biddingPrice": "110000"
+    "biddingPrice": "4500000",
+    "rating": 4.4
   },
   {
     "id": 259,
     "name": "Nurul Hasan Sohan",
     "country": "Bangladesh",
     "image": "https://www.rangpurridersbpl.com/uploads/player/1707484699.webp",
-    "role": "Wicketkeeper-batsman",
+    "role": "Wicketkeeper",
     "battingType": "Right-hand bat",
     "bowlingType": "N/A",
-    "biddingPrice": "55000"
+    "biddingPrice": "1750000",
+    "rating": 3.7
   },
   {
     "id": 104,
@@ -97,7 +106,8 @@
     "role": "Batsman",
     "battingType": "Right-hand bat",
     "bowlingType": "Right-arm offbreak",
-    "biddingPrice": "150000"
+    "biddingPrice": "5000000",
+    "rating": 4.9
   },
   {
     "id": 682,
@@ -107,6 +117,7 @@
     "role": "All-rounder",
     "battingType": "Left-hand bat",
     "bowlingType": "Right-arm offbreak",
-    "biddingPrice": "65000"
+    "biddingPrice": "2000000",
+    "rating": 3.9
   }
 ]
