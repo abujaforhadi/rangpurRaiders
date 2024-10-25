@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import pic from "../assets/image/Rangpur_Riders_Logo.png";
 
 
-function Header({hendlePlayerData}) {
+function Header({totalMoney}) {
   return (
     <div>
       <div className="navbar bg-base-100">
@@ -62,7 +62,7 @@ function Header({hendlePlayerData}) {
           </ul>
         </div>
         <div className="">
-          <a className="btn btn-outline">0 BDT</a>
+          <a className="btn btn-outline">{totalMoney} BDT</a>
         </div>
       </div>
     </div>

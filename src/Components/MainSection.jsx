@@ -3,7 +3,7 @@ import Hero from "./Hero";
 import Available from "./Available";
 import Selected from "./Selected";
 
-function MainSection({hendlePlayerData,playerData,handleDelete}) {
+function MainSection({hendlePlayerData,playerData,handleDelete,addMoney}) {
   const [activeBtn, setActiveBtn] = useState({
     Available: true,
     status: "Available",
@@ -19,7 +19,7 @@ function MainSection({hendlePlayerData,playerData,handleDelete}) {
   return (
     <div className="py-5">
      
-      <Hero />
+      <Hero addMoney={addMoney}/>
 
       <div className="flex justify-between py-5">
         <h3 className="font-bold text-xl">Choose Our Riders </h3>

@@ -7,6 +7,10 @@ import Footer from "./Components/Footer";
 
 function App() {
   const [playerData, setPlayerData] = useState([]);
+  const [money,setMoney]=useState(0);
+  const addMoney=(tk)=>setMoney(money+tk);
+  const totalMoney=()=>money;
+  
   const hendlePlayerData = (player) => {
     const isDuplicate = playerData.some(
       (p) => p.id === player.id
@@ -31,8 +35,8 @@ function App() {
   return (
     <>
       <div className="py-6 px-4 md:px-16 lg:px-40 text-[#131313]">
-        <Header playerData={playerData}></Header>
-        <MainSection handleDelete={handleDelete} playerData={playerData} hendlePlayerData={hendlePlayerData}></MainSection>
+        <Header totalMoney={totalMoney()}></Header>
+        <MainSection addMoney={addMoney}  handleDelete={handleDelete} playerData={playerData} hendlePlayerData={hendlePlayerData}></MainSection>
         <Footer></Footer>
       </div>
     </>
