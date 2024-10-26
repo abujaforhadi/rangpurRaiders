@@ -72,6 +72,15 @@ function Footer() {
               </div>
             </fieldset>
           </form>
+
+        </footer>
+      </div>
+      <div>
+        <hr className="text-white" />
+        <footer className="footer footer-center text-base-content bg-[#06091A] p-4">
+          <aside>
+            <p className="text-white">Copyright © {new Date().getFullYear()} - All right reserved by Rangpur Riders</p>
+          </aside>
         </footer>
       </div>
     </div>
