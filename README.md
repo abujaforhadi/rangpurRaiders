@@ -1,6 +1,7 @@
 # Rangpur Riders
 
 **Rangpur Riders** is an interactive web app that enables users to manage a sports team selection within a specific budget. The app provides a seamless and engaging way to build a virtual team, allowing users to add and remove players, track expenditures, and receive instant notifications. 
+
 **Live Link** http://rongpur.abujafor.me/
 
 ## Table of Contents

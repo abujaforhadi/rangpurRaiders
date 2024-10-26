@@ -19,17 +19,24 @@ function App() {
   const hendlePlayerData = (player) => {
     const isDuplicate = playerData.some((p) => p.id === player.id);
 
-    if (!isDuplicate) {
-      if (money <= player.biddingPrice) {
-        toast.error("Insufficient credit"); 
+    if (playerData.length < 6) {
+      console.log(playerData.length);
+      if (!isDuplicate) {
+        if (money <= player.biddingPrice) {
+          toast.error("Insufficient credit");
+        } else {
+          const addPlayer = [...playerData, player];
+          setPlayerData(addPlayer);
+          setMoney(money - player.biddingPrice);
+          toast.success(`${player.name} added successfully!`);
+        }
       } else {
-        const addPlayer = [...playerData, player];
-        setPlayerData(addPlayer);
-        setMoney(money - player.biddingPrice);
-        toast.success(`${player.name} added successfully!`); 
+        toast.info("player already selected.");
       }
-    } else {
-      toast.info("player already selected."); 
+    }
+    else {
+      toast.error("Maximum limit reached.");
+
     }
   };
 
@@ -37,15 +44,18 @@ function App() {
     const updatePlayer = playerData.filter((player) => player.id !== p.id);
     setPlayerData(updatePlayer);
     setMoney(money + parseInt(p.biddingPrice));
-    
-    toast.warning(`${p.name} removed successfully!`); 
+
+    toast.warning(`${p.name} removed successfully!`);
   };
 
   return (
     <>
       <ToastContainer />
-      <div className="py-6 px-4 md:px-16 lg:px-40 text-[#131313]">
-        <Header totalMoney={totalMoney()}></Header>
+
+      <Header totalMoney={totalMoney()}></Header>
+
+      <div className="py-4 px-4 md:mx-16 md:py-16 lg:mx-40 text-[#131313]">
+
         <MainSection
           addMoney={addMoney}
           handleDelete={handleDelete}

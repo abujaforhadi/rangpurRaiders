@@ -9,7 +9,7 @@ function Selected({ playerData, handleDelete,handleActiveBtn }) {
 
   return (
     <div>
-      <h3 className="font-bold text-xl text-center py-4">Selected Players</h3>
+      <h3 className="font-bold text-xl text-center py-4">Selected Players ({playerData.length}/6)</h3>
       <div className="grid gap-3">
         {player.map(p => (
           <SelectedPlayer key={p.id} handleDelete={handleDelete} p={p} />

@@ -2,11 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import pic from "../assets/image/Rangpur_Riders_Logo.png";
 
-
-function Header({totalMoney}) {
+function Header({ totalMoney }) {
   return (
-    <div>
-      <div className="navbar bg-base-100 justify-between">
+    <div className="fixed top-0 w-full bg-white shadow-lg z-10">
+      <div className="navbar justify-between px-4">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -27,7 +26,7 @@ function Header({totalMoney}) {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3  p-2 shadow"
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 p-2 shadow"
             >
               <li>
                 <a>Home</a>
@@ -43,7 +42,7 @@ function Header({totalMoney}) {
               </li>
             </ul>
           </div>
-          <img className="w-1/12" src={pic} />
+          <img className="w-1/12" src={pic} alt="Rangpur Riders Logo" />
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-[#131313B3]">
@@ -61,7 +60,7 @@ function Header({totalMoney}) {
             </li>
           </ul>
         </div>
-        <div className="">
+        <div>
           <a className="btn btn-outline">{totalMoney} BDT</a>
         </div>
       </div>
@@ -69,6 +68,8 @@ function Header({totalMoney}) {
   );
 }
 
-Header.propTypes = {};
+Header.propTypes = {
+  totalMoney: PropTypes.number.isRequired,
+};
 
 export default Header;
