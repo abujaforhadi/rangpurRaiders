@@ -36,5 +36,5 @@ Rangpur Riders is designed for users who want an organized and user-friendly pla
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/rangpur-riders.git
+   git clone https://github.com/abujaforhadi/rangpurRaiders.git
    cd rangpur-riders
