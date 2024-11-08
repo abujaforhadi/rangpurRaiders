@@ -2,7 +2,7 @@ import React from "react";
 import pic1 from "../assets/image/bg-shadow.png";
 import pic from "../assets/image/Rangpur_Riders_Logo.png";
 
-function Hero({addMoney}) {
+function Hero({ addMoney }) {
   return (
     <div>
       <div
@@ -22,9 +22,10 @@ function Hero({addMoney}) {
             <p className="text-[#FFFFFFB3] pb-4 font-inter">
               Beyond Boundaries Beyond Limits
             </p>
-            <button onClick={()=>addMoney(5000000)} className="btn btn-outline text-[#D29F98]">
+            <button onClick={() => addMoney(5000000)} className="btn btn-outline text-[#D29F98]">
               Claim Free Credit
             </button>
+            
           </div>
         </div>
       </div>

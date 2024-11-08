@@ -53,6 +53,7 @@ function App() {
       <ToastContainer />
 
       <Header totalMoney={totalMoney()}></Header>
+      
 
       <div className="py-4 px-4 md:mx-16 md:py-16 lg:mx-40 text-[#131313]">
 
